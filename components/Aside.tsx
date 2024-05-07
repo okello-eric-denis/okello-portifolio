@@ -24,8 +24,8 @@ export default function Aside() {
           alt=""
           className="h-48 md:h-56 lg:h-60 my-4 rounded-full"
         />
-        <h1 className="text-2xl font-bold">John Doe</h1>
-        <h3 className="text-lg">jdoe</h3>
+        <h1 className="text-2xl font-bold">Okello Eric Denis</h1>
+        <h3 className="text-lg">eric</h3>
         <p className="py-2"> A lie is just a great story ruined by truth.</p>
 
         <div className="my-2">
@@ -44,22 +44,18 @@ export default function Aside() {
           <div className="mt-2 mb-4 text-lg flex flex-col gap-2">
             <div className="flex gap-x-2 items-center">
               <IoLocationOutline className="flex-none text-gray-500" />{' '}
-              Argentina
+              Njeru, Buikwe, Uganda
             </div>
             <Link href="mailto:user@domain.com">
               <div className="flex gap-x-2 items-center">
                 <IoMailOutline className="flex-none text-gray-500" />{' '}
-                user@domain.com
+                okelloericdenis@gmail.com
               </div>
             </Link>
-            <div className="flex gap-x-2 items-center">
-              <IoStorefrontOutline className="flex-none text-gray-500" /> @tesla
-              @starlink
-            </div>
-            <Link href="tel:+919912341234">
+            <Link href="tel:+256789174480">
               <div className="flex gap-x-2 items-center">
                 <IoPhonePortraitOutline className="flex-none text-gray-500" />{' '}
-                +91-99-1234-1234
+                +256-789-174-480
               </div>
             </Link>
           </div>
